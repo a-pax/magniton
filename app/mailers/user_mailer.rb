@@ -9,4 +9,3 @@ class UserMailer < ActionMailer::Base
   end
 end
 
-:from => "address_you_are_sending_from@your_domain.com"
