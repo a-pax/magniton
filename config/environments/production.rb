@@ -36,7 +36,7 @@ Prelaunchr::Application.configure do
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.perform_deliveries = true
 
-  
+  config.serve_static_assets = true
 
 
   # Defaults to nil and saved in location specified by config.assets.prefix
