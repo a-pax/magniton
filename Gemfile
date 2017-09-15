@@ -19,6 +19,7 @@ group :assets do
 end
 
 group :development, :test do
+  gem 'sqlite3'
   gem 'pry'
   gem 'rspec-rails', '3.4.2'
   gem 'rspec-mocks', '3.4.1'
@@ -38,9 +39,6 @@ end
 # Deploy with Capistrano
 # gem 'capistrano'
 
-group :development do 
-  gem 'sqlite3'
-end
 
 group :production do
   gem 'pg'
