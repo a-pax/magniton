@@ -12,8 +12,6 @@ gem 'pg'
 # to fix the html emails
 gem 'nokogiri'
 gem 'premailer-rails'
-
-gem 'sprockets_better_errors'
 #gem 'mysql2'
 
 
