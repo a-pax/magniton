@@ -7,6 +7,7 @@ gem 'delayed_job_active_record', '~> 4.0.3'
 gem 'devise'
 gem 'rails', '4.2.5.2'
 gem 'unicorn'
+gem 'pg'
 #gem 'mysql2'
 
 
@@ -19,7 +20,7 @@ group :assets do
 end
 
 group :development, :test do
-  gem 'sqlite3'
+#  gem 'sqlite3'
   gem 'pry'
   gem 'rspec-rails', '3.4.2'
   gem 'rspec-mocks', '3.4.1'
@@ -41,7 +42,6 @@ end
 
 
 group :production do
-  gem 'pg'
   gem 'rails_12factor'
   gem 'rails_serve_static_assets'
 end
