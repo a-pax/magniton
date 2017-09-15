@@ -75,7 +75,7 @@ Prelaunchr::Application.configure do
 
   # Send deprecation notices to registered listeners
   config.active_support.deprecation = :notify
-  config.action_mailer.default_options = { :from => ENV["MAILER_SENDER"] }
+  config.action_mailer.default_options = { from: ENV["MAILER_SENDER"] }
   config.action_mailer.default_url_options = { :host => 'https://sheltered-harbor-57469.herokuapp.com' }
 # config.action_mailer.default_url_options = { :host => ENV['DEFAULT_MAILER_HOST'] }
 
