@@ -1,14 +1,31 @@
 development:
   adapter: postgresql
+  encoding: unicode
   database: magniton_db
+  username: apax_pl
+  password: launch_it_pass
+  pool: 5
+
+test: # this has to be different
+  adapter: postgresql
+  database: prelaunchr_test
   host: localhost
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: magniton_db
+  pool: 5
   username: apax_pl
   password: launch_it_pass
 
-test:
-  adapter: postgresql
-  database: magniton_db
-  host: localhost
+# production:
+#   <<: *default
+#   adapter: postgresql
+#   database: magniton_db
+#   username: apax_pl
+#   password: launch_it_pass
+
 
 # I added this: 
 # default: &default
@@ -49,12 +66,7 @@ test:
 # #   production:
 # #     url: <%= ENV['DATABASE_URL'] %>
 # #
-production:
-  <<: *default
-  adapter: postgresql
-  database: magniton_db
-  username: apax_pl
-  password: launch_it_pass
+
 # host: localhost
 
 
