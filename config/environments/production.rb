@@ -9,6 +9,7 @@ Prelaunchr::Application.configure do
   config.action_controller.perform_caching = true
 
   config.eager_load = true
+  config.log_level = :info
 
   # Compress JavaScripts and CSS
   config.assets.compress = true
@@ -18,6 +19,21 @@ Prelaunchr::Application.configure do
 
   # Generate digests for assets URLs
   config.assets.digest = true
+
+  config.action_mailer.delivery_method = :smtp
+#  config.action_mailer.smtp_settings = { :address => "localhost", :port => 1025 }
+  config.action_mailer.smtp_settings = {
+    address:              "smtp.gmail.com",
+    port:                 587,
+    domain:               "gmail.com",
+    authentication:       "plain",
+    enable_starttls_auto: true,
+    user_name:            ENV["GMAIL_USERNAME"],
+    password:             ENV["GMAIL_PASSWORD"],  
+  }
+  config.action_mailer.raise_delivery_errors = true
+  config.action_mailer.perform_deliveries = true
+
 
   # Defaults to nil and saved in location specified by config.assets.prefix
   # config.assets.manifest = YOUR_PATH

@@ -49,10 +49,12 @@ test:
 # #   production:
 # #     url: <%= ENV['DATABASE_URL'] %>
 # #
-# production:
-#   <<: *default
-#   database: prelauncher_prod
-#   username: apax-pl
-#   password: launch_it_pass
+production:
+  <<: *default
+  adapter: postgresql
+  database: magniton_db
+  username: apax_pl
+  password: launch_it_pass
+# host: localhost
 
 
