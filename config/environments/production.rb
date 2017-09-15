@@ -15,7 +15,7 @@ Prelaunchr::Application.configure do
   config.assets.compress = true
 
   # Don't fallback to assets pipeline if a precompiled asset is missed
-  config.assets.compile = false
+  config.assets.compile = true
   #not sure if this needs to be commented out
  # config.action_mailer.default_options = { from: ENV["MAILER_SENDER"] }
 
@@ -35,6 +35,8 @@ Prelaunchr::Application.configure do
   }
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.perform_deliveries = true
+
+  
 
 
   # Defaults to nil and saved in location specified by config.assets.prefix
