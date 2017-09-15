@@ -8,6 +8,10 @@ gem 'devise'
 gem 'rails', '4.2.5.2'
 gem 'unicorn'
 gem 'pg'
+
+# to fix the html emails
+gem 'nokogiri'
+gem 'premailer-rails'
 #gem 'mysql2'
 
 
