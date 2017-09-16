@@ -53,7 +53,7 @@
           <p><%= stop["html"].html_safe %></p>
 
           <div class="tooltip">
-            <img src="<%= asset_path(stop["image"]) %>" height="254">
+            <img src="<%= asset_path(stop["image"][1..-1]) %>" height="254">
           </div>
         </li>
       <% end %>
