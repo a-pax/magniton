@@ -97,6 +97,7 @@ GEM
     has_scope (0.6.0)
       actionpack (>= 3.2, < 5)
       activesupport (>= 3.2, < 5)
+    hpricot (0.8.6)
     htmlentities (4.3.4)
     i18n (0.7.0)
     inherited_resources (1.6.0)
@@ -137,6 +138,9 @@ GEM
     premailer-rails (1.9.7)
       actionmailer (>= 3, < 6)
       premailer (~> 1.7, >= 1.7.9)
+    premailer-rails3 (1.3.2)
+      premailer (~> 1.7)
+      rails (>= 3)
     pry (0.10.3)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
@@ -184,6 +188,9 @@ GEM
       polyamorous (~> 1.2)
     responders (2.1.1)
       railties (>= 4.2.0, < 5.1)
+    roadie (3.2.2)
+      css_parser (~> 1.4)
+      nokogiri (~> 1.5)
     rspec-core (3.4.3)
       rspec-support (~> 3.4.0)
     rspec-expectations (3.4.0)
@@ -242,13 +249,15 @@ DEPENDENCIES
   delayed_job_active_record (~> 4.0.3)
   devise
   dotenv-rails
-  nokogiri
+  hpricot
   pg
   premailer-rails
+  premailer-rails3
   pry
   rails (= 4.2.5.2)
   rails_12factor
   rails_serve_static_assets
+  roadie
   rspec-mocks (= 3.4.1)
   rspec-rails (= 3.4.2)
   sass-rails (~> 5.0.1)

@@ -10,8 +10,10 @@ gem 'unicorn'
 gem 'pg'
 
 # to fix the html emails
-gem 'nokogiri'
+gem 'hpricot'
 gem 'premailer-rails'
+gem 'premailer-rails3'
+gem 'roadie'
 #gem 'mysql2'
 
 
