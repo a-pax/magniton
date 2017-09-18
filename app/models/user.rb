@@ -16,28 +16,28 @@ class User < ActiveRecord::Base
   REFERRAL_STEPS = [
     {
       'count' => 5,
-      'html' => 'Free WipeOut<br>Cleansing Cloth',
+      'html' => 'Free Magnitone WipeOut<br>Cleansing Cloth',
       'class' => 'two',
       'image' =>  ActionController::Base.helpers.asset_path(
         'refer/cream-tooltip@2x.png')
     },
     {
       'count' => 10,
-      'html' => 'Exclusive £20<br>Discount',
+      'html' => 'Exclusive £20 Discount<br>on Magnitone BlendUp',
       'class' => 'three',
       'image' => ActionController::Base.helpers.asset_path(
         'refer/truman@2x.png')
     },
     {
       'count' => 25,
-      'html' => 'Free BlendUp<br>Brush',
+      'html' => 'Free Magnitone<br>BlendUp Brush',
       'class' => 'four',
       'image' => ActionController::Base.helpers.asset_path(
         'refer/winston@2x.png')
     },
     {
       'count' => 50,
-      'html' => '1x each of our<br>styling brush heads',
+      'html' => '1 Year&#39;s Supply of<br>Brush Heads',
       'class' => 'five',
       'image' => ActionController::Base.helpers.asset_path(
         'refer/blade-explain@2x.png')
