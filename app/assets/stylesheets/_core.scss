@@ -40,28 +40,65 @@ html.home{
 }
 
 #home .hero .large{
+	font-family: "Times New Roman";
 	font-weight: bold;
-	font-size: 40px;
+	font-style: italic;
+	font-size: 30px;
+	text-align: right;
+	color: #FFFFFF;
+	margin: 200px 110px 0 210px;
+	position: relative;
+	z-index: 2;
+	letter-spacing: 2px;
+}
+
+#home .hero .large span{
+	font-weight: bold;
+	font-style: normal;
+	font-size: 45px;
 	color: #5ab7b2;
-	text-transform: uppercase;
-	margin: 85px 0 0 136px;
+	text-align: right;
 	position: relative;
 	z-index: 2;
 	letter-spacing: 2px;
 }
 
 #home .hero .small{
-	font-weight: bold;
 	color: #955F5D;
 	font-size: 18px;
-	margin: 10px 0 0 115px;
+	margin: 0 110px 0 210px;
+	text-align: right;
+	color: #FFFFFF;
 	line-height: 30px;
 	position: relative;
 	z-index: 2;
-	text-transform: uppercase;
-	text-align: center;
-	width: 375px;
 	letter-spacing: 1px;
+}
+
+#home .hero .logotext{
+	font-family: "Tahoma";
+	font-size: 35px;
+    color: #FFFFFF;
+    font-weight: lighter;
+    text-transform: uppercase;
+    margin: 60px 110px 0 210px;
+    text-align: right;
+    position: relative;
+	z-index: 2;
+	letter-spacing: 2px;
+}
+
+#home .hero .london{
+    font-family: "Tahoma";
+	font-size: 15px;
+	color: #FFFFFF;
+	font-weight: lighter;
+	text-transform: uppercase;
+	margin: 0 170px 0 450px;
+	position: relative;
+	text-align: right;
+	z-index: 2;
+	letter-spacing: 4px;
 }
 
 #home .form-wrap{
@@ -250,7 +287,7 @@ html.home{
 
 #refer .header{
 	height: 50px;
-	background: #5ab7b2;
+	background: #FFF;
 	width: 100%;
 	overflow:hidden;
 	z-index: 1;
@@ -278,13 +315,12 @@ html.home{
 	font-weight: normal;
 	font-size: 0;
 	line-height: 0;
-	margin-right: 14px;
 	letter-spacing: 1px;
-	background: image-url("refer/logo.png") 0 0 no-repeat;
-	background-size: 106px 19px;
-	height: 19px;
-	width: 106px;
+	height: 37px;
+	width: 211px;
 	margin-top: 15px;
+	background: image-url("home/key@2x.png") 0 0 no-repeat;
+	background-size: 211px 37px;
 }
 
 #refer .hero{
@@ -628,8 +664,8 @@ only screen and (min-device-pixel-ratio: 2) {
 	}
 
 	#refer .header .logo{
-		background: image-url("refer/logo@2x.png") 0 0 no-repeat;
-		background-size: 106px 19px;
+		background: image-url("home/key@2x.png") 0 0 no-repeat;
+		background-size: 211px 37px;
 	}
 
 	#refer .mammoth{
