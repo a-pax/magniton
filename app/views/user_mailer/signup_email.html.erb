@@ -7,7 +7,6 @@
     .ExternalClass { width: 100%; }
   </style>
 </head>
-<% twitter_message = "#Makeup is evolving! Excited for @Magnitone #blendup to launch." %>
 
 <body style="margin: 0; padding: 0;">
   <span style='font-size: 0; line-height: 0; height: 0; width: 0;'>You'll be first to know when we launch. Tell your friends and earn Magnitone product for each friend who signs up.</span>
@@ -63,13 +62,13 @@
                     <table style="margin: 0 auto; padding: 0; width: 200px; font-family: 'Helvetica Neue-Light', 'Helvetica Neue Light', 'Helvetica Neue', HelveticaNeue, Helvetica, Arial, sans-serif; font-size: 0; color: #CCC; font-weight: normal; background: white; text-align: center;" width='200' cellspacing='0' cellpadding='0' align="center" bgcolor="#FFFFFF">
                       <tr>
                             <td width="80" align="right">
-                                <a href="http://www.facebook.com/sharer/sharer.php?u=<%= CGI::escape(Rails.application.config.action_mailer.default_url_options || "") %>?ref=<%= CGI::escape(@user.referral_code) %>&title=Magnitone" style="outline: 0; border: 0;" target="_blank">
+                                <a href="http://www.facebook.com/sharer/sharer.php?u=<%= CGI::escape(Rails.application.config.action_mailer.default_url_options || "") %>?ref=<%= CGI::escape(@user.referral_code) %>&title=Harrys" style="outline: 0; border: 0;" target="_blank">
                                     <img src="<%= asset_path('refer/fb.png') %>" alt="Share on Facebook" style="display: block; margin: 0; padding: 0; border: 0;">
                                 </a>
                             </td>
                             <td width="20"></td>
                             <td width="80">
-                                <a href="http://twitter.com/share?url=<%= CGI::escape(Rails.application.config.action_mailer.default_url_options || "") %>?ref=<%= CGI::escape(@user.referral_code) %>&text=<%= CGI::escape(@twitter_message) %>" style="outline: 0; border: 0;" target="_blank">
+                                <a href="http://twitter.com/share?url=<%= CGI::escape(Rails.application.config.action_mailer.default_url_options || "") %>?ref=<%= CGI::escape(@user.referral_code) %>&text=<%= CGI::escape(@refer.html.rb/twitter_message) %>" style="outline: 0; border: 0;" target="_blank">
                                     <img src="<%= asset_path('refer/twit.png') %>" alt="Share on Twitter" style="display: block; margin: 0; padding: 0; border: 0;">
                                 </a>
                             </td>
