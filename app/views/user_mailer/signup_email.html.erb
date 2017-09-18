@@ -68,7 +68,7 @@
                             </td>
                             <td width="20"></td>
                             <td width="80">
-                                <a href="http://twitter.com/share?url=<%= CGI::escape(Rails.application.config.action_mailer.default_url_options || "") %>?ref=<%= CGI::escape(@user.referral_code) %>&text=<%= CGI::escape(@refer.html.rb/twitter_message) %>" style="outline: 0; border: 0;" target="_blank">
+                                <a href="http://twitter.com/share?url=<%= CGI::escape(Rails.application.config.action_mailer.default_url_options || "") %>?ref=<%= CGI::escape(@user.referral_code) %>&text=<%= CGI::escape(@twitter_message) %>" style="outline: 0; border: 0;" target="_blank">
                                     <img src="<%= asset_path('refer/twit.png') %>" alt="Share on Twitter" style="display: block; margin: 0; padding: 0; border: 0;">
                                 </a>
                             </td>
