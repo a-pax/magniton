@@ -681,7 +681,7 @@
 <br>
 Your unique referral link is:<br>
 <br>
-<strong><span style="color:#008080">[UNIQUE LINK HERE]</span></strong><br>
+<strong><span style="color:#008080"><a href="<%= Rails.application.config.action_mailer.default_url_options || "" %>?ref=<%= @user.referral_code %>" target="_blank"><%= Rails.application.config.action_mailer.default_url_options || "" %>?ref=<%= @user.referral_code %></a></span></strong><br>
 <br>
 Share this link with friends via e-mail, Facebook and Twitter to earn free products!<br>
 <br>
