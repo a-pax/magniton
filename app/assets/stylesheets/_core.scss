@@ -320,6 +320,7 @@ html.home{
 	height: 37px;
 	width: 211px;
 	margin-top: 15px;
+	margine-bottom: 15px;
 	background: image-url("home/key@2x.png") 0 0 no-repeat;
 	background-size: 211px 37px;
 }
@@ -380,6 +381,8 @@ html.home{
 }
 
 #refer .share-wrap .subtitle{
+	font-family:  Gill Sans;
+	letter-spacing: 2px;
 	color: #565656;
 	font-size: 14px;
 	text-transform: none;
