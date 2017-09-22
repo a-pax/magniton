@@ -654,76 +654,13 @@ html.home{
 
 
 
-/*
-	RETINA
-*/
-@media only screen and (min--moz-device-pixel-ratio: 2),
-only screen and (-o-min-device-pixel-ratio: 2/1),
-only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (min-device-pixel-ratio: 2) {
-	#home .hero{
-		background: image-url("home/hero@2x.jpg") center center no-repeat;
-		background-size: 1600px 446px;
-	}
-
-	#home .form-wrap .key{
-		background: image-url("home/key@2x.png") 0 0 no-repeat;
-		background-size: 106px 19px;
-	}
-
-	#refer .header .logo{
-		background: image-url("home/key@2x.png") 0 0 no-repeat;
-		background-size: 211px 37px;
-	}
-
-	#refer .mammoth{
-		background: image-url("refer/mammoth@2x.png") 0 0 no-repeat;
-		background-size: 610px 394px;
-	}
-
-	#refer .share-wrap .social-links .fb{
-		background: image-url("refer/fb@2x.png");
-		background-size: 27px 27px;
-	}
-
-	#refer .share-wrap .social-links .twit{
-		background: image-url("refer/twit@2x.png");
-		background-size: 27px 27px;
-	}
-
-	#refer .prizes .progress{
-		background: image-url("refer/progress-bg@2x.png") 0 0 repeat-x;
-		background-size: 1px 4px;
-	}
-
-	#refer .prizes .progress .mover .bar{
-		background: image-url("refer/progress-done@2x.png") 0 0 repeat-x;
-		background-size: 1px 4px;
-	}
-
-	#refer .prizes .progress .mover .razor{
-		background: image-url("refer/razor@2x.png") 0 0 no-repeat;
-		background-size: 82px 23px;
-	}
-
-	#refer .prizes .products li.product .caret{
-		background: image-url("refer/caret@2x.png") center center no-repeat;
-		background-size: 16px 10px;
-	}
-
-	#refer .prizes .products li.product.selected .caret{
-		background: image-url("refer/caret-selected@2x.png") center center no-repeat;
-		background-size: 16px 10px;
-	}   	
-}
-
 @media only screen and (max-device-width:767px){
 	#home .form-wrap .email{
 		float: left;
 		font-size: 13px;
 		padding: 8px 0 8px 0px;
 		border: 1px solid #5ab7b2;
-		width: 100%;
+		width: 99%;
 		outline: none;
 		letter-spacing: 1px;
 		background: #EDECEA;
@@ -746,10 +683,6 @@ only screen and (min-device-pixel-ratio: 2) {
 		width: 100%;
 		margin: 23px auto 0;
   	
-	}
-	#home .hero{
-		background-position-x: left -320px;
-		height: auto;
 	}
 	#home .hero .large{		
 		font-size: 26px;		
@@ -778,6 +711,13 @@ only screen and (min-device-pixel-ratio: 2) {
 	    margin-left: 70%;	   
     }
 
+}
+
+@media only screen and (max-device-width:722px){
+	#home .hero{
+		background-position-x: -320px;
+		height: auto;
+	}
 }
 
 
