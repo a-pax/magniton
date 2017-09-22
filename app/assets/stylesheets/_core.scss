@@ -32,9 +32,9 @@ html.home{
 	width: 100%;
 	height: 446px;
 	background: image-url("home/hero.jpg") center center no-repeat;
-	background-size: 1600px 446px;
+	background-size: 1600px 446	px;
 	overflow: hidden;
-	position: relative;
+	position: relevant;
 	letter-spacing: .09em;
 	margin: 0 auto;
 	background-size:cover;
@@ -74,6 +74,7 @@ html.home{
 	position: relative;
 	z-index: 2;
 	letter-spacing: 1px;
+	
 }
 
 #home .hero .logotext{
@@ -106,6 +107,7 @@ html.home{
 	height: 80px;
 	width: 490px;
 	margin: 23px auto 0;
+  	
 }
 
 #home .form-wrap .key{
@@ -712,9 +714,46 @@ only screen and (min-device-pixel-ratio: 2) {
 	#refer .prizes .products li.product.selected .caret{
 		background: image-url("refer/caret-selected@2x.png") center center no-repeat;
 		background-size: 16px 10px;
-	}
+	}   	
 }
 
+@media only screen and (max-device-width:767px){
+	#home .form-wrap .email{
+		float: left;
+		font-size: 13px;
+		padding: 8px 0 8px 10px;
+		border: 1px solid #5ab7b2;
+		width: 490px;
+		outline: none;
+		letter-spacing: 1px;
+		background: #EDECEA;
+        }
+        #home .form-wrap .submit{
+		width: 502px;
+		background: #5ab7b2;
+		float: left;
+		height: 37px;
+		line-height: 37px;
+		color: #FFF;
+		font-size: 13px;
+		text-transform: uppercase;
+		border: 0;
+		letter-spacing: 2px;
+		cursor: pointer;
+       }
+	#home .hero .logotext{
+		font-family: "Tahoma";
+		font-size: 35px;
+		color: #FFFFFF;
+		font-weight: lighter;
+		text-transform: uppercase;
+		margin: 22px 110px 0 210px;
+		text-align: right;
+		position: relative;
+		z-index: 2;
+		letter-spacing: 2px;
+	}
+}
 
 
 
