@@ -713,6 +713,24 @@ html.home{
 
 }
 
+{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{{}{}{}{}{}{}{}{}{}{}{}{}
+
+
+#refer .header .logo{
+	font-weight: normal;
+	font-size: 0;
+	line-height: 0;
+	letter-spacing: 1px;
+	height: 37px;
+	width: 211px;
+	margin: 15px 0 15px 0;
+	background: image-url("home/key@2x.png") 0 0 no-repeat;
+	background-size: 211px 37px;
+}
+
+
+{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{{}{}{}{}{}{}{}{}{}{}{}{}
+
 @media only screen and (max-device-width:722px){
 	#home .hero{
 		background-position-x: -255px;
@@ -720,6 +738,13 @@ html.home{
 	}
 }
 
+
+@media only screen and (max-device-width:722px){
+	#refer .herotwo{
+		background-position-x: -400px;
+		height: auto;
+	}
+}
 
 
 
