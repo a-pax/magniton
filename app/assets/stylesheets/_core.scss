@@ -96,7 +96,7 @@ html.home{
 	color: #FFFFFF;
 	font-weight: lighter;
 	text-transform: uppercase;
-	margin: 0 170px 0 450px;
+	margin: 0 170px 10px 450px;
 	position: relative;
 	text-align: right;
 	z-index: 2;
@@ -701,7 +701,7 @@ html.home{
     }
     #home .hero .logotext {	  
 	    font-size: 29px;	   	     
-	    margin-top: 22px;	   
+	    margin-top: 10px;	   
 	    margin-right: 7%;
 	    margin-left: 33%;
     }
@@ -715,7 +715,7 @@ html.home{
 
 @media only screen and (max-device-width:722px){
 	#home .hero{
-		background-position-x: -320px;
+		background-position-x: -255px;
 		height: auto;
 	}
 }
