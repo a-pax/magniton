@@ -282,8 +282,9 @@ html.home{
 }
 #refer .herotwo{
 	width: 100%;
-	height: 446px;
 	background-size: 1600px 446	px;
+	background: #F1F0EE;
+	height: 391px;
 	overflow: hidden;
 	position: relevant;
 	letter-spacing: .09em;
@@ -310,7 +311,7 @@ html.home{
 }
 
 #refer .header .content{
-	width: 315px;
+	width: 212px;
 	margin: 0 auto;
 }
 
@@ -337,12 +338,6 @@ html.home{
 	margine-bottom: 15px;
 	background: image-url("home/key@2x.png") 0 0 no-repeat;
 	background-size: 211px 37px;
-}
-
-#refer .herotwo{
-	background: #F1F0EE;
-	height: 391px;
-	overflow: hidden;
 }
 
 #refer .mammoth{
@@ -721,25 +716,44 @@ html.home{
 	    margin-left: 70%;	   
     }
 
+	#refer .mammoth{
+		float: left;
+	}
+
+	#refer .herotwo{
+		width: 100%;
+		background: #F1F0EE;
+		height: 391px;
+		overflow: hidden;
+		letter-spacing: .09em;
+		margin: 0 auto;
+		background-size:cover;
+	}
+
+	#refer .page-content{
+		margin-top: 15px;
+		width: 100%;
+		margin: 0 auto;
+		z-index: 0;
+	}
+
+	refer .share-wrap{
+		float: right;
+		width: 400px;
+		text-align: center;
+		text-transform: uppercase;
+		letter-spacing: .13em;
+		margin-right: 60px;
+	}
+
+
 }
 
-{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}
+
+	
 
 
-#refer .header .logo{
-	font-weight: normal;
-	font-size: 0;
-	line-height: 0;
-	letter-spacing: 1px;
-	height: 37px;
-	width: 211px;
-	margin: 15px 0 15px 0;
-	background: image-url("home/key@2x.png") 0 0 no-repeat;
-	background-size: 211px 37px;
-}
 
-
-{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}
 
 
 @media only screen and (max-device-width:722px){
@@ -747,15 +761,14 @@ html.home{
 		background-position-x: -255px;
 		height: auto;
 	}
-}
 
-
-@media only screen and (max-device-width:722px){
 	#refer .herotwo{
-		background-position-x: -200px;
+		background-position-x: -255px;
 		height: auto;
 	}
 }
+
+
 
 
 
