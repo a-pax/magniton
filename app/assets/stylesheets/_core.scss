@@ -746,6 +746,24 @@ html.home{
 		margin-right: 60px;
 	}
 
+	#refer .prizes .progress{
+		height: 4px;
+		width: 80%;
+		background: image-url("refer/progress-bg.png") 0 0 repeat-x;
+		background-size: 1px 4px;
+		position: absolute;
+		top: 100px;
+		z-index: 0;
+	}
+
+	#refer .prizes .progress .mover .bar{
+		background: image-url("refer/progress-done.png") 0 0 repeat-x;
+		width: 20px;
+		height: 4px;
+		-webkit-background-size: 1px 4px;
+		background-size: 1px 4px;
+	}
+
 
 }
 
