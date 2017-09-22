@@ -713,7 +713,7 @@ html.home{
 
 }
 
-{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{{}{}{}{}{}{}{}{}{}{}{}{}
+{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}
 
 
 #refer .header .logo{
@@ -729,7 +729,8 @@ html.home{
 }
 
 
-{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{{}{}{}{}{}{}{}{}{}{}{}{}
+{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}
+
 
 @media only screen and (max-device-width:722px){
 	#home .hero{
@@ -741,7 +742,7 @@ html.home{
 
 @media only screen and (max-device-width:722px){
 	#refer .herotwo{
-		background-position-x: -400px;
+		background-position-x: -200px;
 		height: auto;
 	}
 }
