@@ -766,7 +766,6 @@ html.home{
 		width: 100%;
 		text-transform: none;
 		font-size: 11px;
-		margin: 20px auto 0;
 	}
 
 	#refer .prizes{
@@ -899,7 +898,14 @@ html.home{
 		color: #995F5E;
 	}
 
+	#home .page-content{
+		width: 1400px;
+		margin: 0 auto;
+	}
+
 }
+
+
 
 
 @media only screen and (max-device-width:722px){
@@ -909,7 +915,7 @@ html.home{
 	}
 
 	#refer .herotwo{
-		background-position-x: 0;
+		background-position-x: -255px;
 		height: auto;
 	}
 }
