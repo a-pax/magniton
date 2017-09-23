@@ -456,6 +456,26 @@ html.home{
 	text-transform: uppercase;
 }
 
+#refer .prizes .prizeone{
+	margin: 20px 20px 20px 20px;
+	background-size: 27px 27px;
+}
+
+#refer .prizes .prizetwo{
+	margin: 20px 20px 20px 20px;
+	background-size: 27px 27px;
+}
+
+#refer .prizes .prizethree{
+	margin: 20px 20px 20px 20px;
+	background-size: 27px 27px;
+}
+
+#refer .prizes .prizefour{
+	margin: 20px 20px 20px 20px;
+	background-size: 27px 27px;
+}
+
 #refer .prizes .progress{
 	height: 4px;
 	width: 100%;
@@ -655,6 +675,7 @@ html.home{
 @media only screen and (max-device-width:767px){
 	#home .form-wrap .email{
 		float: left;
+		text-align: center;
 		font-size: 13px;
 		padding: 8px 0 8px 0px;
 		border: 1px solid #5ab7b2;
@@ -813,7 +834,6 @@ html.home{
 		top: 0;
 		left: 0;
 	}
-
 
 	#refer .prize-two .progress .mover .bar{ width: 65px; }
 	#refer .prize-three .progress .mover .bar{ width: 100px; }
