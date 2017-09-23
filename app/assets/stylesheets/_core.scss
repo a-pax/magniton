@@ -699,6 +699,7 @@ html.home{
 	    font-size: 42px;	   
 	    text-align: unset;	   
     }
+
 	#home .hero .small {	   
 	    font-size: 16px;	   	    
 	    margin-right: 7%;
@@ -716,62 +717,189 @@ html.home{
 	    margin-left: 70%;	   
     }
 
-	#refer .mammoth{
-		float: left;
-	}
-
 	#refer .herotwo{
-		width: 100%;
 		background: #F1F0EE;
-		height: 391px;
 		overflow: hidden;
 		letter-spacing: .09em;
-		margin: 0 auto;
-		background-size:cover;
+		width: 100%;
+	}
+
+	#refer .mammoth{
+		width: 306px;
+		height: 197px;
+		background: image-url("refer/mammoth.png") 0 0 no-repeat;
+		background-size: 306px 197px;
+		overflow: hidden;
+		margin-top: 15px;
+		float: left;
+		margin-right: 2%;
+	    margin-left: 2%;	
+	}
+
+	#refer .mammoth .need{
+		color: #FFF;
+		letter-spacing: 4px;
+		text-align: center;
+		width: 50%;
 	}
 
 	#refer .page-content{
 		margin-top: 15px;
-		width: 100%;
-		margin: 0 auto;
-		z-index: 0;
+		width: 100%;	
+	    z-index: 0;
 	}
 
-	refer .share-wrap{
+	#refer .share-wrap{
 		float: right;
-		width: 400px;
+		margin-right: 10%;
+	    margin-left: 10%;	
+		width: 80%;
 		text-align: center;
 		text-transform: uppercase;
 		letter-spacing: .13em;
-		margin-right: 60px;
+	}
+
+	#refer .share-wrap .copy-link{
+		border: 1px solid #D1D0C7;
+		background: #FFF;
+		padding: 10px 0;
+		width: 100%;
+		text-transform: none;
+		font-size: 11px;
+		margin: 20px auto 0;
+	}
+
+	#refer .prizes{
+		width: 100%;
+		background: #FFF;
+		border-top: 1px solid #D2D1C8;
+		padding-bottom: 100px;
 	}
 
 	#refer .prizes .progress{
 		height: 4px;
-		width: 80%;
+		width: 90%;
 		background: image-url("refer/progress-bg.png") 0 0 repeat-x;
 		background-size: 1px 4px;
-		position: absolute;
 		top: 100px;
 		z-index: 0;
+		margin-right: 5%;
+	    margin-left: 5%;	
 	}
+
+
 
 	#refer .prizes .progress .mover .bar{
 		background: image-url("refer/progress-done.png") 0 0 repeat-x;
-		width: 20px;
+		width: 30px;
 		height: 4px;
 		-webkit-background-size: 1px 4px;
 		background-size: 1px 4px;
 	}
 
+	#refer .prizes .progress .mover{
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+
+
+	#refer .prize-two .progress .mover .bar{ width: 65px; }
+	#refer .prize-three .progress .mover .bar{ width: 100px; }
+	#refer .prize-four .progress .mover .bar{ width: 190px; }
+	#refer .prize-five .progress .mover .bar{ width: 335px; }	
+
+	#refer .prizes ul.products{
+		height: 105px;
+		width: 100%;
+		margin-top: 10px;
+		position: relative;
+		z-index: 1;
+	}
+
+	#refer .prizes .products li.title{
+		height: 160px;
+		text-transform: uppercase;
+		color: #5ab7b2;
+		font-weight: 500;
+		font-size: 14px;
+		float: left;
+		margin-right: 10%;
+		margin-left: 10%;
+		width: 80%;
+		font-weight: bold;
+	}
+
+	#refer .prizes .products li.title .friends{
+		margin-top: 30px;
+		letter-spacing: 2px;
+	}
+
+	#refer .prizes .products li.title .rewards{
+		margin-top: 70px;
+		margin-bottom: 0px;
+		width: 100%;
+		text-align: center;
+		letter-spacing: 2px;
+	}
+
+	#refer .prizes .products li.product{
+		height: 100%;
+		color: #5ab7b2;
+		float: left;
+		position: relative;
+		margin-right: 10%;
+		margin-left: 10%;
+		margin-bottom: 20px;
+		width: 80%;
+	}
+
+	#refer .prizes .products li.product .circle{
+		height: 30px;
+		width: 30px;
+		border-radius: 15px;
+		border: 1px solid #DAD9D2;
+		text-align: center;
+		line-height: 30px;
+		color: #868282;
+		overflow: hidden;
+		background: #F1F0EE;
+		font-weight: bold;
+		margin: 0 auto;
+	}
+
+	#refer .prizes .products li.product .sep{
+		width: 12px;
+		height: 0;
+		background: transparent;
+		margin: 13px auto 13px;
+	}
+
+	#refer .prizes p.place{
+		text-align: center;
+		font-size: 16px;
+		color: #5ab7b2;
+		width: 100%;
+		margin-top: 600px;
+		margin-bottom: 0;
+		height: 20px;
+		font-weight: 500;
+	}
+
+	#refer .prizes p.check{
+		text-align: center;
+		font-size: 16px;
+		color: #858181;
+		width: 100%;
+		font-weight: 500;
+		margin-top: 0;
+	}
+
+	#refer .prizes p.place span{
+		color: #995F5E;
+	}
 
 }
-
-
-	
-
-
-
 
 
 @media only screen and (max-device-width:722px){
@@ -781,7 +909,7 @@ html.home{
 	}
 
 	#refer .herotwo{
-		background-position-x: -255px;
+		background-position-x: 0;
 		height: auto;
 	}
 }
