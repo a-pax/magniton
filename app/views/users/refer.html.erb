@@ -18,6 +18,26 @@
       <% twitter_message = "#Makeup is evolving! Excited for @Magnitone #blendup to launch." %>
       <div class="social-links">
         <a href="http://www.facebook.com/sharer/sharer.php?u=<%= CGI::escape(root_url) %>?ref=<%= CGI::escape(@user.referral_code) %>&title=Harrys" class="fb" target="_blank"></a>
+        <key>LSApplicationQueriesSchemes</key>
+<array>
+    <string>fbapi</string>
+    <string>fbapi20130214</string>
+    <string>fbapi20130410</string>
+    <string>fbapi20130702</string>
+    <string>fbapi20131010</string>
+    <string>fbapi20131219</string>    
+    <string>fbapi20140410</string>
+    <string>fbapi20140116</string>
+    <string>fbapi20150313</string>
+    <string>fbapi20150629</string>
+    <string>fbapi20160328</string> 
+    <string>fbauth</string>
+    <string>fbauth2</string>
+    <string>fb-messenger-api20140430</string>
+    <string>fb-messenger-platform-20150128</string>
+<string>fb-messenger-platform-20150218</string>
+<string>fb-messenger-platform-20150305</string>
+</array>
         <div class="sep"></div>
         <a href="http://twitter.com/share?url=<%= CGI::escape(root_url) %>?ref=<%= CGI::escape(@user.referral_code) %>&text=<%= CGI::escape(twitter_message) %>" class="twit" target="_blank"></a>
       </div>
