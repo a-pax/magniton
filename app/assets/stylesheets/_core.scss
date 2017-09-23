@@ -40,6 +40,32 @@ html.home{
 	background-size:cover;
 }
 
+#home .hero .logotext{
+	font-family: "Tahoma";
+	font-size: 35px;
+    color: #FFFFFF;
+    font-weight: lighter;
+    text-transform: uppercase;
+    margin: 60px 110px 0 210px;
+    text-align: right;
+    position: relative;
+	z-index: 2;
+	letter-spacing: 2px;
+}
+
+#home .hero .london{
+    font-family: "Tahoma";
+	font-size: 15px;
+	color: #FFFFFF;
+	font-weight: lighter;
+	text-transform: uppercase;
+	margin: 0 170px 10px 450px;
+	position: relative;
+	text-align: right;
+	z-index: 2;
+	letter-spacing: 4px;
+}
+
 #home .hero .large{
 	font-family: "Times New Roman";
 	font-weight: bold;
@@ -75,32 +101,6 @@ html.home{
 	z-index: 2;
 	letter-spacing: 1px;
 	
-}
-
-#home .hero .logotext{
-	font-family: "Tahoma";
-	font-size: 35px;
-    color: #FFFFFF;
-    font-weight: lighter;
-    text-transform: uppercase;
-    margin: 60px 110px 0 210px;
-    text-align: right;
-    position: relative;
-	z-index: 2;
-	letter-spacing: 2px;
-}
-
-#home .hero .london{
-    font-family: "Tahoma";
-	font-size: 15px;
-	color: #FFFFFF;
-	font-weight: lighter;
-	text-transform: uppercase;
-	margin: 0 170px 10px 450px;
-	position: relative;
-	text-align: right;
-	z-index: 2;
-	letter-spacing: 4px;
 }
 
 #home .form-wrap{
