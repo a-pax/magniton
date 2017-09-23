@@ -13,3 +13,26 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
+$(document).ready(function(){
+
+function isiPhone(){
+	    return (   	
+	        (navigator.platform.indexOf("iPhone") != -1) ||
+	        (navigator.platform.indexOf("iPod") != -1)
+	    );
+	}
+
+	if(isiPhone()){
+	   if($('.tooltip').css('display') == 'none'){
+		   $("#refer .prizes .products li.product").on('click', function(){
+		   		$('.tooltip').css('display','block');
+		   })
+	   }else if($('.tooltip').css('display') == 'block'){
+	   		$("#refer .prizes .products li.product").on('click', function(){
+		   		$('.tooltip').css('display','none');
+		   })
+	   }
+   }	
+
+});
+
