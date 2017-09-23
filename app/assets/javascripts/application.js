@@ -14,6 +14,7 @@
 //= require jquery_ujs
 //= require_tree .
 
+
 $(document).ready(function(){
 
 function isiPhone(){
@@ -31,6 +32,9 @@ function isiPhone(){
 		   			$(this).find('.tooltip').css('display','none');
 		   		}
 	   });
+		$('#home .hero .logotext').css('font-family','Verdana');
+		$('#home .hero .london').css('font-family','Verdana');
    }	
 
 });
+
