@@ -300,7 +300,7 @@ html.home{
 }
 
 #refer .header .content{
-	width: 212px;
+	width: 315px;
 	margin: 0 auto;
 }
 
@@ -329,11 +329,17 @@ html.home{
 	background-size: 211px 37px;
 }
 
+#refer .hero{
+	background: #F1F0EE;
+	height: 391px;
+	overflow: hidden;
+}
+
 #refer .mammoth{
 	width: 612px;
 	height: 394px;
 	background: image-url("refer/mammoth.png") 0 0 no-repeat;
-	background-size: 612px 394px;
+	background-size: 610px 394px;
 	overflow: hidden;
 	margin-top: 15px;
 	float: left;
@@ -646,7 +652,6 @@ html.home{
 	text-decoration: none;
 }
 
-
 @media only screen and (max-device-width:767px){
 	#home .form-wrap .email{
 		float: left;
@@ -716,14 +721,14 @@ html.home{
 	}
 
 	#refer .mammoth{
-		width: 92%;
+		width: 80%;
 		background: image-url("refer/mammoth.png") 0 0 no-repeat;
 		background-size: 306px 197px;
 		overflow: hidden;
 		margin-top: 15px;
 		float: left;
-		margin-right: 0;
-	    margin-left: 0;	
+		margin-right: 2%;
+	    margin-left: 2%;	
 	    height: 195px;
 	}
 
@@ -831,6 +836,7 @@ html.home{
 	#refer .prizes .products li.title .friends{
 		margin-top: 30px;
 		letter-spacing: 2px;
+		text-align: center;
 	}
 
 	#refer .prizes .products li.title .rewards{
@@ -900,6 +906,11 @@ html.home{
 	#home .page-content{
 		width: 100%;
 		margin: 0 auto;
+	}
+	#refer .hero{
+		background: #F1F0EE;
+		height: auto;
+		overflow: hidden;
 	}
 
 }
