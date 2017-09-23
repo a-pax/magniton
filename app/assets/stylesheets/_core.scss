@@ -40,32 +40,6 @@ html.home{
 	background-size:cover;
 }
 
-#home .hero .logotext{
-	font-family: "Tahoma";
-	font-size: 35px;
-    color: #FFFFFF;
-    font-weight: lighter;
-    text-transform: uppercase;
-    margin: 60px 110px 0 210px;
-    text-align: right;
-    position: relative;
-	z-index: 2;
-	letter-spacing: 2px;
-}
-
-#home .hero .london{
-    font-family: "Tahoma";
-	font-size: 15px;
-	color: #FFFFFF;
-	font-weight: lighter;
-	text-transform: uppercase;
-	margin: 0 170px 10px 450px;
-	position: relative;
-	text-align: right;
-	z-index: 2;
-	letter-spacing: 4px;
-}
-
 #home .hero .large{
 	font-family: "Times New Roman";
 	font-weight: bold;
@@ -103,6 +77,32 @@ html.home{
 	
 }
 
+#home .hero .logotext{
+	font-family: "Tahoma";
+	font-size: 35px;
+    color: #FFFFFF;
+    font-weight: lighter;
+    text-transform: uppercase;
+    margin: 60px 110px 0 210px;
+    text-align: right;
+    position: relative;
+	z-index: 2;
+	letter-spacing: 2px;
+}
+
+#home .hero .london{
+    font-family: "Tahoma";
+	font-size: 15px;
+	color: #FFFFFF;
+	font-weight: lighter;
+	text-transform: uppercase;
+	margin: 0 170px 10px 450px;
+	position: relative;
+	text-align: right;
+	z-index: 2;
+	letter-spacing: 4px;
+}
+
 #home .form-wrap{
 	height: 80px;
 	width: 490px;
@@ -114,7 +114,7 @@ html.home{
 	width: 106px;
 	height: 19px;
 	margin: 0 auto;
-	background: image-url("home/key@2x.png") 0 0 no-repeat;
+	background: image-url("home/key.png") 0 0 no-repeat;
 	background-size: 116px 19px;
 }
 
@@ -456,26 +456,6 @@ html.home{
 	text-transform: uppercase;
 }
 
-#refer .prizes .prizeone{
-	margin: 20px 20px 20px 20px;
-	background-size: 27px 27px;
-}
-
-#refer .prizes .prizetwo{
-	margin: 20px 20px 20px 20px;
-	background-size: 27px 27px;
-}
-
-#refer .prizes .prizethree{
-	margin: 20px 20px 20px 20px;
-	background-size: 27px 27px;
-}
-
-#refer .prizes .prizefour{
-	margin: 20px 20px 20px 20px;
-	background-size: 27px 27px;
-}
-
 #refer .prizes .progress{
 	height: 4px;
 	width: 100%;
@@ -675,32 +655,27 @@ html.home{
 @media only screen and (max-device-width:767px){
 	#home .form-wrap .email{
 		float: left;
-		text-align: center;
 		font-size: 13px;
 		padding: 8px 0 8px 0px;
 		border: 1px solid #5ab7b2;
-		width: 70%;
+		width: 60%;
 		outline: none;
 		letter-spacing: 1px;
 		background: #EDECEA;
-		margin-right: 20%;
-		margin-left: 15%;
         }
-
-    #home .form-wrap .submit{
-		width: 70%;
+        #home .form-wrap .submit{
+		width: 60%;
 		background: #5ab7b2;
 		float: left;
 		height: 37px;
+		line-height: 37px;
 		color: #FFF;
 		font-size: 13px;
 		text-transform: uppercase;
 		border: 0;
 		letter-spacing: 2px;
-		margin-right: 20%;
-		margin-left: 15%;
+		cursor: pointer;
        }
-
 	#home .form-wrap{
 		height: 80px;
 		width: 100%;
@@ -721,24 +696,18 @@ html.home{
 	#home .hero .small {	   
 	    font-size: 16px;	   	    
 	    margin-right: 7%;
-	    margin-left: 35%;
+	    margin-left: 40%;
     }
     #home .hero .logotext {	  
-	    font-size: 22px;
-	    font-family: "Tahoma";
-	    width: 44%;  	   	     
+	    font-size: 29px;	   	     
 	    margin-top: 10px;	   
 	    margin-right: 7%;
-	    margin-left: 49%;
-	    text-align: right;  
+	    margin-left: 33%;
     }
-    #home .hero .london {
-    	font-family: "Tahoma";	    
-	    font-size: 10px;	
-	    width: 37%;  
-	    text-align: center;  	    	    
+    #home .hero .london {	    
+	    font-size: 12px;	   	    	    
 	    margin-right: 7%;
-	    margin-left: 56%;	   
+	    margin-left: 70%;	   
     }
 
 	#refer .header{
@@ -752,7 +721,7 @@ html.home{
 	}
 
 	#refer .mammoth{
-		width: 92%;
+		width: 80%;
 		background: image-url("refer/mammoth.png") 0 0 no-repeat;
 		background-size: 306px 197px;
 		overflow: hidden;
@@ -821,6 +790,8 @@ html.home{
 	    margin-left: 5%;	
 	}
 
+
+
 	#refer .prizes .progress .mover .bar{
 		background: image-url("refer/progress-done.png") 0 0 repeat-x;
 		width: 30px;
@@ -834,6 +805,7 @@ html.home{
 		top: 0;
 		left: 0;
 	}
+
 
 	#refer .prize-two .progress .mover .bar{ width: 65px; }
 	#refer .prize-three .progress .mover .bar{ width: 100px; }
@@ -957,6 +929,8 @@ html.home{
 		height: auto;
 	}
 }
+
+
 
 
 
