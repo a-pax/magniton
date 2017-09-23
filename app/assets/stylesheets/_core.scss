@@ -114,7 +114,7 @@ html.home{
 	width: 106px;
 	height: 19px;
 	margin: 0 auto;
-	background: image-url("home/key.png") 0 0 no-repeat;
+	background: image-url("home/key@2x.png") 0 0 no-repeat;
 	background-size: 116px 19px;
 }
 
@@ -658,13 +658,16 @@ html.home{
 		font-size: 13px;
 		padding: 8px 0 8px 0px;
 		border: 1px solid #5ab7b2;
-		width: 60%;
+		width: 70%;
 		outline: none;
 		letter-spacing: 1px;
 		background: #EDECEA;
+		margin-right: 20%;
+		margin-left: 15%;
         }
-        #home .form-wrap .submit{
-		width: 60%;
+
+    #home .form-wrap .submit{
+		width: 70%;
 		background: #5ab7b2;
 		float: left;
 		height: 37px;
@@ -675,7 +678,10 @@ html.home{
 		border: 0;
 		letter-spacing: 2px;
 		cursor: pointer;
+		margin-right: 20%;
+		margin-left: 15%;
        }
+
 	#home .form-wrap{
 		height: 80px;
 		width: 100%;
@@ -696,18 +702,22 @@ html.home{
 	#home .hero .small {	   
 	    font-size: 16px;	   	    
 	    margin-right: 7%;
-	    margin-left: 40%;
+	    margin-left: 35%;
     }
     #home .hero .logotext {	  
-	    font-size: 29px;	   	     
+	    font-size: 22px;
+	    width: 44%;  	   	     
 	    margin-top: 10px;	   
 	    margin-right: 7%;
-	    margin-left: 33%;
+	    margin-left: 49%;
+	    text-align: right;  
     }
     #home .hero .london {	    
-	    font-size: 12px;	   	    	    
+	    font-size: 10px;	
+	    width: 37%;  
+	    text-align: center;  	    	    
 	    margin-right: 7%;
-	    margin-left: 70%;	   
+	    margin-left: 56%;	   
     }
 
 	#refer .header{
