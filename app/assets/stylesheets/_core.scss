@@ -333,7 +333,7 @@ html.home{
 	width: 612px;
 	height: 394px;
 	background: image-url("refer/mammoth.png") 0 0 no-repeat;
-	background-size: 610px 394px;
+	background-size: 612px 394px;
 	overflow: hidden;
 	margin-top: 15px;
 	float: left;
@@ -716,14 +716,14 @@ html.home{
 	}
 
 	#refer .mammoth{
-		width: 80%;
+		width: 92%;
 		background: image-url("refer/mammoth.png") 0 0 no-repeat;
 		background-size: 306px 197px;
 		overflow: hidden;
 		margin-top: 15px;
 		float: left;
-		margin-right: 2%;
-	    margin-left: 2%;	
+		margin-right: 0;
+	    margin-left: 0;	
 	    height: 195px;
 	}
 
