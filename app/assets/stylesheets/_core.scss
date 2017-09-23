@@ -341,10 +341,9 @@ html.home{
 }
 
 #refer .mammoth{
-	width: 612px;
-	height: 394px;
+	width: 100%;
 	background: image-url("refer/mammoth.png") 0 0 no-repeat;
-	background-size: 610px 394px;
+	background-size: 306px 197px;
 	overflow: hidden;
 	margin-top: 15px;
 	float: left;
@@ -717,6 +716,16 @@ html.home{
 	    margin-left: 70%;	   
     }
 
+	#refer .header{
+		height: 50px;
+		background: #FFF;
+		margin: 0 0 10px 0;
+		width: 100%;
+		overflow:hidden;
+		z-index: 1;
+		position: relative;
+	}
+
 	#refer .herotwo{
 		background: #F1F0EE;
 		overflow: hidden;
@@ -725,8 +734,7 @@ html.home{
 	}
 
 	#refer .mammoth{
-		width: 306px;
-		height: 197px;
+		width: 80%;
 		background: image-url("refer/mammoth.png") 0 0 no-repeat;
 		background-size: 306px 197px;
 		overflow: hidden;
