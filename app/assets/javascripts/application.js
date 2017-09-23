@@ -34,6 +34,7 @@ function isiPhone(){
 	   });
 		$('#home .hero .logotext').css('font-family','Verdana');
 		$('#home .hero .london').css('font-family','Verdana');
+		$('#home .form-wrap .submit').css('background','#5ab7b2');
    }	
 
 });
