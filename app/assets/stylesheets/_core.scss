@@ -671,7 +671,6 @@ html.home{
 		background: #5ab7b2;
 		float: left;
 		height: 37px;
-		line-height: 37px;
 		color: #FFF;
 		font-size: 13px;
 		text-transform: uppercase;
@@ -705,13 +704,15 @@ html.home{
     }
     #home .hero .logotext {	  
 	    font-size: 22px;
+	    font-family: "Tahoma";
 	    width: 44%;  	   	     
 	    margin-top: 10px;	   
 	    margin-right: 7%;
 	    margin-left: 49%;
 	    text-align: right;  
     }
-    #home .hero .london {	    
+    #home .hero .london {
+    	font-family: "Tahoma";	    
 	    font-size: 10px;	
 	    width: 37%;  
 	    text-align: center;  	    	    
