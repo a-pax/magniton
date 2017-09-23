@@ -13,6 +13,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
+
 $(document).ready(function(){
 
 function isiPhone(){
@@ -23,16 +24,13 @@ function isiPhone(){
 	}
 
 	if(isiPhone()){
-	   if($('.tooltip').css('display') == 'none'){
-		   $("#refer .prizes .products li.product").on('click', function(){
-		   		$('.tooltip').css('display','block');
-		   })
-	   }else if($('.tooltip').css('display') == 'block'){
-	   		$("#refer .prizes .products li.product").on('click', function(){
-		   		$('.tooltip').css('display','none');
-		   })
-	   }
+   		$("#refer .prizes .products li.product").on('click', function(){
+		   		if($(this).find('.tooltip').css('display') == 'none'){
+	   				$(this).find('.tooltip').css('display','block');
+		   		}else if($(this).find('.tooltip').css('display') == 'block'){
+		   			$(this).find('.tooltip').css('display','none');
+		   		}
+	   });
    }	
 
 });
-
