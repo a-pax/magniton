@@ -68,7 +68,7 @@ html.home{
 		letter-spacing: 2px;
 		margin-right: 20%;
 		margin-left: 15%;
-		web
+		-webkit-appearance: none;
        }
 
 	#home .form-wrap{
@@ -424,6 +424,7 @@ html.home{
 	border: 0;
 	letter-spacing: 2px;
 	cursor: pointer;
+	-webkit-appearance: none;
 }
 
 #home .form-wrap.ended{
