@@ -10,14 +10,24 @@ Prelaunchr::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb
   config.action_mailer.delivery_method = :smtp
 #  config.action_mailer.smtp_settings = { :address => "localhost", :port => 1025 }
+  # config.action_mailer.smtp_settings = {
+  #   address:              "smtp.gmail.com",
+  #   port:                 587,
+  #   domain:               "gmail.com",
+  #   authentication:       "plain",
+  #   enable_starttls_auto: true,
+  #   user_name:            ENV["GMAIL_USERNAME"],
+  #   password:             ENV["GMAIL_PASSWORD"],  
+  # }
+
   config.action_mailer.smtp_settings = {
-    address:              "smtp.gmail.com",
-    port:                 587,
-    domain:               "gmail.com",
+    address:              "smtp.sendgrid.net",
+    port:                 465,
+    # domain:               "gmail.com",
     authentication:       "plain",
     enable_starttls_auto: true,
-    user_name:            ENV["GMAIL_USERNAME"],
-    password:             ENV["GMAIL_PASSWORD"],  
+    user_name:            "magnitone_smtp_method",
+    password:             ENV['SENDGRID_API_KEY'], 
   }
   # In the development environment your application's code is reloaded on
   # every request. This slows down response time but is perfect for development

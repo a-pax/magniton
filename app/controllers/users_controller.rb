@@ -2,6 +2,9 @@ class UsersController < ApplicationController
   before_filter :skip_first_page, only: :new
   # before_filter :handle_ip, only: :create
 
+  require 'sendgrid-ruby'
+  include SendGrid
+
   def new
     @bodyId = 'home'
     @is_mobile = mobile_device?
@@ -15,13 +18,26 @@ class UsersController < ApplicationController
 
   def create
     ref_code = cookies[:h_ref]
-#    email = params[:user][:email]
+ #   email = params[:user][:email]
     @user = User.new(user_params)
     @user.referrer = User.find_by_referral_code(ref_code) if ref_code
 
     if @user.save
       cookies[:h_email] = { value: @user.email }
       UserMailer.signup_email(@user).deliver
+
+      # from = Email.new(email: ENV["GMAIL_USERNAME"])
+      # to = Email.new(email: @user.email)
+      # subject = 'Thanks for signing up!'
+      # content = Content.new(type: 'text/plain', value: 'and easy to do anywhere, even with Ruby')
+      # mail = Mail.new(from, subject, to, content)
+
+      # sg = SendGrid::API.new(api_key: ENV['SENDGRID_API_KEY'])
+      # response = sg.client.mail._('send').post(request_body: mail.to_json)
+      # puts response.status_code
+      # puts response.body
+      # puts response.headers
+
       redirect_to '/refer-a-friend'
     else
       logger.info("Error saving user with email, #{email}")

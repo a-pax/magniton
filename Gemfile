@@ -9,7 +9,9 @@ gem 'rails', '4.2.5.2'
 gem 'unicorn'
 gem 'pg'
 
+
 # to fix the html emails
+gem 'sendgrid-ruby'
 gem 'hpricot'
 gem 'premailer-rails'
 gem 'premailer-rails3'
