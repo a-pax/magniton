@@ -27,7 +27,7 @@ Prelaunchr::Application.configure do
   #   authentication:       "plain",
   #   enable_starttls_auto: true,
   #   user_name:            "blendup",
-  #   password:             "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", 
+  #   password:             "", 
   # }
   # In the development environment your application's code is reloaded on
   # every request. This slows down response time but is perfect for development
